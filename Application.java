@@ -41,7 +41,7 @@ public class Application {
             fos.close();
             System.out.println("Les notes ont été écrites avec succès dans le fichier test.txt !");
         } catch (FileNotFoundException e) {
-            System.out.println("Le fichier spécifié n'a pas été trouvé : " + e.getMessage());
+            System.out.println("Le fichier spécifié n'a pas été trouvé dsl: " + e.getMessage());
         } catch (IOException e) {
             System.out.println("Une erreur s'est produite lors de la lecture ou de l'écriture dans le fichier : " + e.getMessage());
         }
